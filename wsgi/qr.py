@@ -3,6 +3,7 @@ import StringIO
 import qrcode
 
 app = Flask(__name__)
+app.debug = True
 
 @app.route('/', methods=['GET'])
 def index():
