@@ -26,4 +26,4 @@ def index():
 	return "Hello from k3rnl"
 
 if __name__ == '__main__':
-    app.run(debug=  True)
+    app.run(debug = "True")
