@@ -25,7 +25,7 @@ def index():
 	except:
 	    return "Error happened"
     else:
-	return "Hello from k3rnl"
+	return app.send_static_file('qr.html')
 
 if __name__ == '__main__':
     app.run(debug = "True")
