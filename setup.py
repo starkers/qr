@@ -1,5 +1,6 @@
 from setuptools import setup
 
+#install life
 setup(name='qr',
       version='1.0',
       description='qr generator',
